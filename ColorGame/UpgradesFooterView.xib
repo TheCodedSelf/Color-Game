@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UpgradesViewController" customModule="ColorGame" customModuleProvider="target">
+            <connections>
+                <outlet property="footerView" destination="iN0-l3-epB" id="u3s-ab-TZV"/>
+                <outlet property="pointsLabel" destination="R3a-s9-TKL" id="gO2-bF-0wb"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="66"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7W7-8Q-PRr">
+                    <rect key="frame" x="0.0" y="16" width="600" height="50"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="5,125 points" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R3a-s9-TKL">
+                            <rect key="frame" x="240" y="13" width="121" height="26"/>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="21"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.25098039220000001" green="0.54117647059999996" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="R3a-s9-TKL" firstAttribute="centerX" secondItem="7W7-8Q-PRr" secondAttribute="centerX" id="Wfn-j7-aWC"/>
+                        <constraint firstItem="R3a-s9-TKL" firstAttribute="centerY" secondItem="7W7-8Q-PRr" secondAttribute="centerY" id="f45-FG-pYJ"/>
+                        <constraint firstAttribute="height" constant="50" id="w5S-e1-52I"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="7W7-8Q-PRr" secondAttribute="trailing" id="B0n-0d-4Z8"/>
+                <constraint firstItem="7W7-8Q-PRr" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="C9P-YK-iu3"/>
+                <constraint firstAttribute="bottom" secondItem="7W7-8Q-PRr" secondAttribute="bottom" id="y6Y-n5-Ogh"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="150" y="669"/>
+        </view>
+    </objects>
+</document>
