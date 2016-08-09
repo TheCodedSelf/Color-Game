@@ -4,16 +4,17 @@ This app was a small game written for a client in Swift and built in 15 total ho
 The app makes use of In App Purchases as well as video and interstitial iAd advertisements.
 
 ## Game Screen
-![1](https://cloud.githubusercontent.com/assets/10298140/12793437/5005407c-cab9-11e5-8490-f1446821d2be.png)
 
+![1](https://cloud.githubusercontent.com/assets/10298140/17519287/8d6f5968-5e4b-11e6-93bc-ccb6c2b11a11.png)
 
 ## In-App Purchases and Video Ads
-![2](https://cloud.githubusercontent.com/assets/10298140/12793439/50949272-cab9-11e5-9eac-ac2b00899efd.png)
 
+![2](https://cloud.githubusercontent.com/assets/10298140/17519288/8d73082e-5e4b-11e6-8692-bc4d1bd661b9.png)
 
 ## Help Screen
-![3](https://cloud.githubusercontent.com/assets/10298140/12793442/50fa882a-cab9-11e5-8858-34e4a12aecb8.png)
 
+![3](https://cloud.githubusercontent.com/assets/10298140/17519285/8d65655c-5e4b-11e6-9baf-cbf0df7a6600.png)
 
 ## Purchasing an In-App Purchase
-![4](https://cloud.githubusercontent.com/assets/10298140/12793444/520bf230-cab9-11e5-8d4a-5408040b08f6.png)
+
+![4](https://cloud.githubusercontent.com/assets/10298140/17519286/8d684790-5e4b-11e6-8d0f-ab1da7365321.png)
