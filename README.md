@@ -1,5 +1,8 @@
 # Color Game
-A small game demonstrating the [Stroop Effect](https://en.wikipedia.org/wiki/Stroop_effect) written for a client in Swift. The user matches a word to a button of the same color. The game can get rather confusing with the speed and random colors of the word and background.
+A small game demonstrating the [Stroop Effect](https://en.wikipedia.org/wiki/Stroop_effect) written for a client in Swift. The user matches a word to a button of the same color. 
+
+The Stroop Effect is summarised as follows: 
+> When the name of a color (e.g., "blue", "green", or "red") is printed in a color that is not denoted by the name (e.g., the word "red" printed in blue ink instead of red ink), naming the color of the word takes longer and is more prone to errors than when the color of the ink matches the name of the color. The effect has been used to create a psychological test (Stroop test) that is widely used in clinical practice and investigation.
 
 The app makes use of In App Purchases as well as video and interstitial iAd advertisements.
 
